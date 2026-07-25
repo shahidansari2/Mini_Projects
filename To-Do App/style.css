@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.maincontainer{
+    background-color: aqua;
+    width: 60vw;
+    height: auto;
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+}
+h2{
+    margin: 20px;
+}
+#todo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px white solid;
+    margin-bottom: 10px;
+
+}
+.task{
+    padding: 4px;
+    background-color: aliceblue;
+    margin-bottom: 25px;
+    border-radius: 9px;
+
+}
+#input{
+    width: 76%;
+    padding-left: 7px;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+} 
+#button{
+    width: 18%;
+    padding: 6px;
+    border: none;
+    background-color:blueviolet;
+    border-radius: 9px;
+}  
+li{
+    list-style: none;
+    display: flex;
+    border: 1px white solid;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+#button2{
+    width: 100%;
+    padding: 6px;
+    border: none;
+    background-color:rgb(225, 210, 238);
+    border-radius: 9px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
