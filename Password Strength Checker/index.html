@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Check</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h2>Password Strength Checker</h2></div>
+        <div class="box">
+            <div class="inputbox">
+            <input class="inputPass" id="inputPass" type="password" placeholder="Enter Password" oninput="checkPass()">
+            <i class="fa-solid fa-eye" id="toggleIcon" onclick="viewPass()"></i></div>
+            <div class="rules">
+                <p id="rule1">Minimum 8 characters</p>
+                <p id="rule2">At least 1 Capital Letter</p>
+                <p id="rule3">At least 1 Number</p>
+                <p id="rule4">At least 1 Special Character</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
