@@ -35,5 +35,4 @@ function checkPass(){
     rule4.style.color='green'
     rule4.textContent='✓ '+ rule4.textContent
    }
-
 }
